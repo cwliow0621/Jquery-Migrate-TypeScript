@@ -1,0 +1,21 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "1. *npm Init*\r 2. *npm install --save-dev typescript ts-loader*\r 3. *npm install --save jquery*\r 4. *npm install --save-dev webpack*\r 5. Create file  *tsconfig.json*",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jquery": "^3.3.2",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  }
+}
